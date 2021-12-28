@@ -3,7 +3,7 @@ import {
   Marker,
   Popup,
   TileLayer,
-  useMapEvent,
+  // useMapEvent,
 } from 'react-leaflet';
 import L from 'leaflet';
 
@@ -59,12 +59,12 @@ const MapImpl = () => {
 export default MapImpl;
 
 //////
-function SetViewOnClick() {
-  const map = useMapEvent('click', (e) => {
-    map.setView(e.latlng, map.getZoom(), {
-      animate: true,
-    });
-  });
+// function SetViewOnClick() {
+//   const map = useMapEvent('click', (e) => {
+//     map.setView(e.latlng, map.getZoom(), {
+//       animate: true,
+//     });
+//   });
 
-  return null;
-}
+//   return null;
+// }
