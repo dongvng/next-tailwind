@@ -1,13 +1,14 @@
 {
   "name": "next-tailwind",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json}\"",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
-    "next:lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -39,7 +40,7 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "prettier --write",
-      "eslint --fix"
+      "npm run lint"
     ]
   }
 }
