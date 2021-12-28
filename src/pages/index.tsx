@@ -1,10 +1,9 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
     <div>
-      <main></main>
+      <main>Property smart 2021</main>
       <footer></footer>
     </div>
   );

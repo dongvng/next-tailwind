@@ -1,4 +1,4 @@
-import { Map } from '../components/map';
+import { Map } from 'src/components/map';
 
 function MapPage() {
   return (

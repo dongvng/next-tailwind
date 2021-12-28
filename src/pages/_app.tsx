@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="Property smart" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
