@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 const Home: NextPage = () => {
   return (
     <div>
-      <main>Property smart 2021</main>
+      <main>Nextjs app 2022 with DP</main>
       <footer></footer>
     </div>
   );
